@@ -1,0 +1,32 @@
+{
+	"name": "polymer-snippets",
+	"version": "1.0.1",
+	"displayName": "Polymer Snippets",
+	"description": "Sublime snippets for Polymer and Web Components",
+	"publisher": "chimon2000",
+	"author": "chimon2000",
+	"icon": "images/polymer.svg",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chimon2000/vscode-polymer-snippets.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/chimon2000/vscode-polymer-snippets/issues"
+	},
+	"homepage": "https://github.com/chimon2000/vscode-polymer-snippets#readme",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
